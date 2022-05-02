@@ -16,12 +16,12 @@
 
 html {
     font-size:62.5% ;
-    font-family: 'Roboto', cursive;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
     
-    background-image: linear-gradient(to bottom, #7e79be, #7f82c6, #808bce, #8193d6, #839cdd, #9293d4, #9e8ac8, #a882bb, #af698f, #a45661, #8c4c39, #694619);
+    background-image: linear-gradient(to bottom, #6d66c9, #7f82c6, #808bce, #535d82, #839cdd, #595a95, #9e8ac8, #a882bb, #af698f, #a45661, #8c4c39, #694619);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,8 +47,8 @@ main {
 
 }
   .personal img {
-    width: 100px;
-    max-width: 150px;
+    width: 120px;
+    max-width: 170px;
   }
 
   .perso-detail, .skill {
@@ -70,7 +70,10 @@ main {
       display: flex;
       flex-direction: column;
       gap: 5px;
+      padding: 15px;
   }
+
+
 
   .perso-detail ul li, .skill ul li {
       list-style: none;
@@ -131,6 +134,8 @@ main {
       height: 200px;
       align-items: center;
       margin-bottom: 10px;
+      color: white;
+
   }
 
   .henry-card {
