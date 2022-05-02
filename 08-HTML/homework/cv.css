@@ -1,0 +1,146 @@
+:root {
+    --color1: #3480AD ;
+    --color2: #a38889;
+    --color3: #64C1FA ;
+    --color4: #ebe8e4;
+    --color5: #2a315c;
+
+}
+
+* {
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:62.5% ;
+    font-family: 'Roboto', cursive;
+}
+
+body {
+    
+    background-image: linear-gradient(to bottom, #7e79be, #7f82c6, #808bce, #8193d6, #839cdd, #9293d4, #9e8ac8, #a882bb, #af698f, #a45661, #8c4c39, #694619);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal {
+      
+  display: flex; 
+  min-width: 320px;
+  height: 100%;
+   max-height: 380px;
+      color: var(--color4);
+      
+      align-items: center;
+      padding: 16px;
+      gap: 10px;
+
+}
+  .personal img {
+    width: 100px;
+    max-width: 150px;
+  }
+
+  .perso-detail, .skill {
+      
+      height: 320px;
+      max-width: 700px;
+      text-align: center;
+      padding: 20px;
+      color: var(--color5);
+      font-size: 1.1em;
+
+  }
+  .perso-detail h4, .skill h4 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+  }
+  .perso-detail ul, .skill ul {
+      border: solid;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .perso-detail ul li, .skill ul li {
+      list-style: none;
+      border-bottom: solid;
+      height: 35px;
+      color: var(--color4);
+  }
+
+  .exp-lab {
+      min-width: 310px;
+      max-width: 700px;
+      justify-content: center;
+      
+
+  }
+  .exp-lab h4, .form-acad h4 {
+      font-size: 1.7em;
+      text-align: center;
+      margin-bottom: 10px;
+      color: var(--color2);
+  }
+
+  .lab-container, .acad-container {
+      min-width: 310px;
+      display: grid;
+      justify-content: space-evenly;
+      gap: 10px;
+      margin-bottom: 10px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      
+      
+  }
+  .exp-card,.acad-card, .hobbie-card, .henry-card {
+      background-color: var(--color3);
+      color: rgb(75, 73, 68);
+      text-align: center;
+      padding: 10px;
+      min-width: 150px;
+      max-width: 210px;
+      border-radius: 10px;
+      
+      border: solid;
+      border-color: white;
+  }
+
+  .exp-card h5, .acad-card h5 {
+      margin-bottom: 10px;
+  }
+
+  .acad-card, .hobbie-card, .henry-card {
+      background-color: #9099d5;
+  }
+
+  .hobbie-card, .henry-card {
+      display: flex;
+      min-width: 290px;
+      height: 200px;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .henry-card {
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+
+  }
+
+
+
+
+
